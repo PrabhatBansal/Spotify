@@ -1,0 +1,247 @@
+<!DOCTYPE =html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="" X-UA-Compatible content="IE=edge" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="spotify logo.png" type="image/x-icon" />
+    <style>
+       nav {
+         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+           sans-serif;
+       }
+       body {
+         background-color: aqua;
+       }
+       * {
+         margin: 0;
+         padding: 0;
+       }
+       nav ul {
+         display: flex;
+         list-style-type: none;
+         height: 65px;
+         background-color: black;
+         color: aliceblue;
+         align-items: center;
+       }
+       .brand img {
+         /* margin-top: 10px; */
+         width: 50px;
+         padding: 0;
+       }
+       .brand {
+         display: flex;
+         align-items: center;
+       }
+       nav ul li {
+         padding: 10px;
+       }
+       .i {
+         color: aliceblue;
+         text-decoration: none;
+       }
+       .bottom {
+         position: fixed;
+         height: 100px;
+         background-color: rgb(223, 193, 193);
+         display: flex;
+         border: 0;
+         bottom: 0%;
+        right: 0%;
+        width: 100vw;
+
+         justify-content: center;
+         color: rgb(255, 255, 255);
+         flex-direction: column;
+         align-items: center;
+       }
+       .f{
+         width: 50px;
+         height: 50px;
+         align-items: center;
+         background-color: rgb(255, 255, 255);
+         border-radius: 50%;
+
+       }
+       .e{  width: 50px;
+         height: 50px;
+         align-items: center;
+
+       }
+       #rangebar {
+         width: 80vw;
+         text-align: center;
+      cursor: grab;
+       }
+       .container {
+         min-height: 72vh;
+         color: aliceblue;
+         font-family: 'Times New Roman', Times, serif;
+         background-color: black;
+         display: flex;
+         width: 70%;
+         border-radius: 12px;
+         padding: 25px;
+         margin: 23px auto;
+         background-image: url(download.jpg);
+         background: cover;
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+       }
+       .r{
+         width: 30px;
+         position: relative;
+         /* margin-top: 10; */ background-color: rgb(255, 255, 255);
+         border-radius: 50%;
+        margin-left: 5px;
+      }
+      .r,.f{
+        cursor: pointer;
+      }
+      .song1{
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        align-items: center;
+      }
+      .forward{
+        transform: rotate(180deg);
+      }
+
+      .songitem{
+        background-color: white;
+        color: black;
+        padding-left: 20px;
+        border-radius: 20px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        border: 5px solid green ;
+
+      }
+      .song2{
+        margin-top: -5px;
+      }
+      #playmini2{
+        margin: 0 0 0 5px;
+      }
+      input{
+        pointer-events: none;
+      }
+       */
+    </style>
+ 
+    <script></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="spotify logo.png" alt="spotify" />Spotify
+        </li>
+        <li><a class="i" href="index.html">Home</a></li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="song">
+        <h1>Welcome to Spotify.</h1>
+        <div>
+          <div class="songitem">
+            <div class="song1">
+              <span id="id"
+                >I am a disco dancer <span id="time">03:06</span></span
+              >
+              <span class="songlist">
+                <img class="r" id="playmini" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <div class="song1 song2">
+              <span id="id2"
+                >give me some sun shine disco dancer
+                <span id="time2">04:07</span></span
+              >
+              <span class="songlist2">
+                <img class="r" id="playmini2" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <div class="song1 song3">
+              <span id="id3"
+                >Mere Gully Mein
+                <span id="time3">03:05</span></span
+              >
+              <span class="songlist3">
+                <img class="r" id="playmini3" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <div class="song1 song4">
+              <span id="id4"
+                >Bezubaan Kab Se 
+                <span id="time4">04:31</span></span
+              >
+              <span class="songlist4">
+                <img class="r" id="playmini4" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <!-- <div class="song1 song8">
+              <span id="id8"
+                >East or West
+                <span id="time8">04:31</span></span
+              >
+              <span class="songlist8">
+                <img class="r" id="playmini8" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <div class="song1 song7">
+              <span id="id7"
+                >Garmi street dancer
+                <span id="time7">04:31</span></span
+              >
+              <span class="songlist7">
+                <img class="r" id="playmini7" src="p1 copy 7.png"
+              /></span>
+            </div>
+            <div class="song1 song6">
+              <span id="id6"
+                >Gandhi money
+                <span id="time6">04:31</span></span
+              >
+              <span class="songlist6">
+                <img class="r" id="playmini6" src="p1 copy 7.png"
+              /></span>
+            </div> -->
+            <div class="song1 song5">
+              <span id="id5"
+                >Imran-Khan-Satisfya
+                <span id="time5">04:31</span></span
+              >
+              <span class="songlist5">
+                <img class="r" id="playmini5" src="p1 copy 7.png"
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        value="0"
+        name="range"
+        id="rangebar"
+        min="0"
+        max="100"
+        readonly
+      />
+      <div class="icons" style="font-size: 1px">
+        <img class="f" id="play" src="p1 copy 7.png" alt="" srcset="" />
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+
+
+</html>
